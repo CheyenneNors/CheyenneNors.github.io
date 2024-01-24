@@ -1,0 +1,34 @@
+/* 
+Name: Cheyenne Norsworthy
+File: Assignment1.html
+Date: January 26,2024
+Descrition:The task for this assignment is to mark up a letter that needs to be posted
+on a university page. The letter being posted is a response from a researcher 
+to a potential PhD student regarding their university application.
+*/ 
+
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .sender-column {
+    text-align: right;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+  }
+  
+  h2 {
+    font-size: 1.3em;
+  }
+  
+  p,ul,ol,dl,address {
+    font-size: 1.1em;
+  }
+  
+  p, li, dd, dt, address {
+    line-height: 1.5;
+  }
