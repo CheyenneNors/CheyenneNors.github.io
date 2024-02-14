@@ -10,3 +10,19 @@
 }
 
 /* Your CSS below here */
+
+  .box{
+    width: 200px;
+    height: 200px;
+    text-align: vertical center;
+    box-align: center;
+    background-color: blue; 
+    color: aliceblue; 
+    font-size: 18px; 
+    text-shadow: black; 
+    border: 1px solid rgb(4, 4, 118);
+    box-shadow: inset black;
+    box-shadow: black;
+    box-shadow: inset white;  
+
+  }
