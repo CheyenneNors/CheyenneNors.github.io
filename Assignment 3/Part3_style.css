@@ -152,3 +152,20 @@ nav a:active {
   background-color: #aaa;   
   text-decoration: none;
 }
+
+aside {
+  float: right;
+  width: 30%; 
+  margin-left: 20px;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+aside h2 {
+  color: #333; 
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
