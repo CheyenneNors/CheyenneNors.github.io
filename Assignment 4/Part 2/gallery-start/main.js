@@ -11,14 +11,31 @@ const btn = document.querySelector('button');
 const overlay = document.querySelector('.overlay');
 
 /* Declaring the array of image filenames */
+const imageFiles = ['pic1.jpg', 'pic2.jpg', 'pic3.jpg'];
 
 /* Declaring the alternative text for each image file */
+const altText = {
+	'pic1.jpg': 'Image 1',
+	'pic2.jpg': 'Image 2',
+	'pic3.jpg': 'Image 3'
+};
 
 /* Looping through images */
+thumbBar = document.querySelector('.thumb-bar');
 
-const newImage = document.createElement('img');
-newImage.setAttribute('src', xxx);
-newImage.setAttribute('alt', xxx);
-thumbBar.appendChild(newImage);
+for (let i = 0; i < imageFiles.length; i++) {
+	const newImage = document.createElement('img');
+	newImage.setAttribute('src', 'images/' + imageFiles[i]);
+	newImage.setAttribute('alt', altText[imageFiles[i]]);
+
+	newImage.addEventListener('click', function() {
+		const src = this.getAttribute('src');
+		const alt = this.getAttribute('alt');
+		document.querySelector('.displayed-img').setAttribute('src', src);
+		document.querySelector('.displayed-img').setAttribute('alt', alt);
+	});
+
+	thumbBar.appendChild(newImage);
+}
 
 /* Wiring up the Darken/Lighten button */
