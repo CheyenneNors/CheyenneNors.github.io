@@ -1,3 +1,10 @@
+/*
+  Title: main-finished.js
+  Author: Cheyenne Norsworthy
+  Date: 22 March 2024 
+  Purpose: to test comprhension of javascript objects and object-oriented
+  constructs
+*/
 // set up canvas
 
 const canvas = document.querySelector("canvas");
