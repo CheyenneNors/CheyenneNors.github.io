@@ -21,7 +21,6 @@ const altText = {
 };
 
 /* Looping through images */
-thumbBar = document.querySelector('.thumb-bar');
 
 for (let i = 0; i < imageFiles.length; i++) {
 	const newImage = document.createElement('img');
@@ -39,3 +38,14 @@ for (let i = 0; i < imageFiles.length; i++) {
 }
 
 /* Wiring up the Darken/Lighten button */
+btn.addEventListener('click', function() {
+	if (btn.getAttribute('class') === 'dark') {
+		btn.setAttribute('class', 'light');
+		btn.textContent = 'Lighten';
+		overlay.style.backgroundColor = 'rgb(0 0 0 / 50%)';
+	} else {
+		btn.setAttribute('class', 'dark');
+		btn.textContent = 'Darken';
+		overlay.style.backgroundColor = '0 0 0 / 0%)';
+	}
+});
