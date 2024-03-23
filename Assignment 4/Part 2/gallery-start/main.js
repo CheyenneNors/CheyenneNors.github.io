@@ -1,3 +1,9 @@
+/*
+	Name: Cheyenne Norsworthy
+	File: index.html
+	Date: 22 March 2024
+	Pupose: to test comprehension of JavaScript loop, function, conditionals, and events
+*/
 const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 
