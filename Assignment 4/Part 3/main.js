@@ -1,3 +1,10 @@
+/*
+Title: main.js
+Author: Cheyenne Norsworthy
+Date: 22 March 2024
+Purpose: to get some practice with using objects and object-oriented 
+techniques in a real-world context.
+*/
 // setup canvas
 
 const canvas = document.querySelector("canvas");
