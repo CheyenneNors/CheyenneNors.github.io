@@ -1,3 +1,11 @@
+/*
+  Title: Asignment 5 - main.js
+  Author: Cheyenne Norsworthy
+  Date: April, 2024
+  Description: Make changes to existing code to make webpage
+  more accessible for users
+*/
+
 // functionality for showing/hiding the comments section
 
 const showHideBtn = document.querySelector('.show-hide');
